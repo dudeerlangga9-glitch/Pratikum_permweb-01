@@ -1,20 +1,14 @@
-def kubus(sisi):
-    hasil = math.pow(sisi, 3)
-    return hasil
+def luas_persegi(sisi):
+    return sisi * sisi
 
-def balok(panjang, lebar, tinggi):
-    hasil = panjang * lebar * tinggi
-    return hasil
+def luas_persegi_panjang(panjang, lebar):
+    return panjang * lebar
 
-def prisma(alas, tinggi,tinggi_prisma):
-    luas_alas = 0.5 * alas * tinggi
-    hasil = luas_alas * tinggi_prisma
-    return hasil
+def luas_segitiga(alas, tinggi):
+    return 0.5 * alas * tinggi
 
-def tabung(jari_jari, tinggi):
-    hasil = math.pi * math.pow(jari_jari, 2) * tinggi
-    return hasil
+def luas_lingkaran(jari_jari):
+    return math.pi * jari_jari * jari_jari
 
-def kerucut(jari_jari, tinggi):
-    hasil = (1/3) * math.pi * math.pow(jari_jari, 2) * tinggi
-    return hasil
+def luas_jajar_genjang(alas, tinggi):
+    return alas * tinggi
